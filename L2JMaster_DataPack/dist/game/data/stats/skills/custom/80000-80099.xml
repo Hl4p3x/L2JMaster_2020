@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
+	<skill id="80001" levels="2" name="CP Gauge Potion">
+		<table name="#amount"> 50 200 </table>
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="itemConsumeId" val="57" />
+		<set name="operateType" val="A1" />
+		<set name="targetType" val="SELF" />
+		<effects>
+			<effect name="Cp">
+				<param power="#amount" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="80002" levels="1" name="Transformation Fire Master">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1800" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="effectPoint" val="1" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="itemConsumeId" val="57" /> <!-- Adena -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="100" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<effects>
+			<effect name="Transformation">
+				<param id="400" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="80003" levels="1" name="Transformation Water Master">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1800" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="effectPoint" val="1" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="itemConsumeId" val="57" /> <!-- Adena -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="100" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<effects>
+			<effect name="Transformation">
+				<param id="401" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="80004" levels="1" name="Transformation Wind Master">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1800" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="effectPoint" val="1" />
+		<set name="hitTime" val="500" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="itemConsumeId" val="57" /> <!-- Adena -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="100" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<effects>
+			<effect name="Transformation">
+				<param id="402" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="80005" levels="1" name="Transformation Singer Master">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1800" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="effectPoint" val="1" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="itemConsumeId" val="57" /> <!-- Adena -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="100" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<effects>
+			<effect name="Transformation">
+				<param id="403" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="80006" levels="1" name="Transformation Dancer Master">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1800" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="effectPoint" val="1" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="itemConsumeId" val="57" /> <!-- Adena -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="100" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<effects>
+			<effect name="Transformation">
+				<param id="404" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="80007" levels="1" name="Transformation Tank Master">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1800" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="effectPoint" val="1" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="itemConsumeId" val="57" /> <!-- Adena -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="100" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<effects>
+			<effect name="Transformation">
+				<param id="405" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="80008" levels="1" name="Transformation Spoil Master">
+		<set name="abnormalLvl" val="1" />
+		<set name="abnormalTime" val="1800" />
+		<set name="abnormalType" val="TRANSFORM" />
+		<set name="effectPoint" val="1" />
+		<set name="hitTime" val="1500" />
+		<set name="icon" val="icon.skilltransform1" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="0" />
+		<set name="itemConsumeId" val="57" /> <!-- Adena -->
+		<set name="magicLvl" val="-1" />
+		<set name="operateType" val="A2" />
+		<set name="reuseDelay" val="100" />
+		<set name="rideState" val="NONE;STRIDER;WYVERN;WOLF" />
+		<set name="targetType" val="SELF" />
+		<cond>
+			<player canTransform="true" />
+		</cond>
+		<effects>
+			<effect name="Transformation">
+				<param id="406" />
+			</effect>
+		</effects>
+	</skill>
+</list>

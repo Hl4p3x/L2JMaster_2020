@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/transformations.xsd">
+	<!-- Wind Master -->
+	<transform id="402" type="COMBAT" can_swim="1" normal_attackable="1">
+		<Male>
+			<common>
+				<base range="20" attackSpeed="300" attackType="SWORD" critRate="5" mAtk="5" pAtk="5" randomDamage="10" />
+				<stats str="23" int="44" con="24" dex="23" wit="19" men="37" />
+				<defense chest="31" legs="18" head="12" feet="7" gloves="8" underwear="3" cloak="1" />
+				<magicDefense rear="9" lear="9" rfinger="5" lfinger="5" neck="13" />
+				<collision radius="7.5" height="22.8" />
+				<moving walk="78" run="120" waterWalk="50" waterRun="50" flyWalk="0" flyRun="0" unknownWalk="0" unknownRun="0" />
+			</common>
+			<actions>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 28 29 30 31 32 33 34 35 36 38 39 40 41 42 43 44 45 46 47 48 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 70 1000 1001 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 1066 1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1082 1083 1084 1089 1090 1091 1092 1093 1094 1095 1096 1097 1098</actions>
+			<additionalSkills>
+				<skill id="1291" level="1" minLevel="70" /> <!-- Demon Wind -->
+				<skill id="1287" level="1" minLevel="58" /> <!-- Seed of Wind -->
+				<skill id="1341" level="1" minLevel="78" /> <!-- Wind Vortex -->
+				<skill id="1456" level="1" minLevel="78" /> <!-- Wind Vortex Slug -->
+				<skill id="1457" level="1" minLevel="79" /> <!-- Empowering Echo -->
+				<skill id="1239" level="2" minLevel="44" /> <!-- Hurricane -->
+				<skill id="1239" level="3" minLevel="46" /> <!-- Hurricane -->
+				<skill id="1239" level="4" minLevel="47" /> <!-- Hurricane -->
+				<skill id="1239" level="5" minLevel="48" /> <!-- Hurricane -->
+				<skill id="1239" level="6" minLevel="49" /> <!-- Hurricane -->
+				<skill id="1239" level="7" minLevel="50" /> <!-- Hurricane -->
+				<skill id="1239" level="8" minLevel="51" /> <!-- Hurricane -->
+				<skill id="1239" level="9" minLevel="52" /> <!-- Hurricane -->
+				<skill id="1239" level="10" minLevel="53" /> <!-- Hurricane -->
+				<skill id="1239" level="11" minLevel="54" /> <!-- Hurricane -->
+				<skill id="1239" level="12" minLevel="55" /> <!-- Hurricane -->
+				<skill id="1239" level="13" minLevel="56" /> <!-- Hurricane -->
+				<skill id="1239" level="14" minLevel="57" /> <!-- Hurricane -->
+				<skill id="1239" level="15" minLevel="58" /> <!-- Hurricane -->
+				<skill id="1239" level="16" minLevel="59" /> <!-- Hurricane -->
+				<skill id="1239" level="17" minLevel="60" /> <!-- Hurricane -->
+				<skill id="1239" level="18" minLevel="61" /> <!-- Hurricane -->
+				<skill id="1239" level="19" minLevel="62" /> <!-- Hurricane -->
+				<skill id="1239" level="20" minLevel="63" /> <!-- Hurricane -->
+				<skill id="1239" level="21" minLevel="64" /> <!-- Hurricane -->
+				<skill id="1239" level="22" minLevel="65" /> <!-- Hurricane -->
+				<skill id="1239" level="23" minLevel="66" /> <!-- Hurricane -->
+				<skill id="1239" level="24" minLevel="67" /> <!-- Hurricane -->
+				<skill id="1239" level="25" minLevel="68" /> <!-- Hurricane -->
+				<skill id="1239" level="26" minLevel="69" /> <!-- Hurricane -->
+				<skill id="1239" level="27" minLevel="70" /> <!-- Hurricane -->
+				<skill id="1239" level="28" minLevel="74" /> <!-- Hurricane -->
+				<skill id="1148" level="2" minLevel="46" /> <!-- Death Spike -->
+				<skill id="1148" level="3" minLevel="52" /> <!-- Death Spike -->
+				<skill id="1148" level="4" minLevel="54" /> <!-- Death Spike -->
+				<skill id="1148" level="5" minLevel="56" /> <!-- Death Spike -->
+				<skill id="1148" level="6" minLevel="58" /> <!-- Death Spike -->
+				<skill id="1148" level="7" minLevel="60" /> <!-- Death Spike -->
+				<skill id="1148" level="8" minLevel="62" /> <!-- Death Spike -->
+				<skill id="1148" level="9" minLevel="64" /> <!-- Death Spike -->
+				<skill id="1148" level="10" minLevel="66" /> <!-- Death Spike -->
+				<skill id="1148" level="11" minLevel="68" /> <!-- Death Spike -->
+				<skill id="1148" level="12" minLevel="70" /> <!-- Death Spike -->
+				<skill id="1148" level="14" minLevel="74" /> <!-- Death Spike -->
+				<skill id="1074" level="5" minLevel="44" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="7" minLevel="46" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="8" minLevel="52" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="9" minLevel="54" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="10" minLevel="56" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="11" minLevel="58" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="12" minLevel="64" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="13" minLevel="70" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="14" minLevel="74" /> <!-- Surrender To Wind -->
+				<skill id="1169" level="2" minLevel="46" /> <!-- Curse Fear -->
+				<skill id="1169" level="3" minLevel="52" /> <!-- Curse Fear -->
+				<skill id="1169" level="4" minLevel="54" /> <!-- Curse Fear -->
+				<skill id="1169" level="5" minLevel="56" /> <!-- Curse Fear -->
+				<skill id="1169" level="6" minLevel="58" /> <!-- Curse Fear -->
+				<skill id="1169" level="7" minLevel="60" /> <!-- Curse Fear -->
+				<skill id="1169" level="8" minLevel="62" /> <!-- Curse Fear -->
+				<skill id="1169" level="9" minLevel="64" /> <!-- Curse Fear -->
+				<skill id="1169" level="10" minLevel="66" /> <!-- Curse Fear -->
+				<skill id="1169" level="11" minLevel="68" /> <!-- Curse Fear -->
+				<skill id="1169" level="12" minLevel="70" /> <!-- Curse Fear -->
+				<skill id="1169" level="14" minLevel="74" /> <!-- Curse Fear -->
+				<skill id="1176" level="3" minLevel="52" /> <!-- Tempest -->
+				<skill id="1176" level="4" minLevel="54" /> <!-- Tempest -->
+				<skill id="1176" level="5" minLevel="56" /> <!-- Tempest -->
+				<skill id="1176" level="6" minLevel="58" /> <!-- Tempest -->
+				<skill id="1176" level="7" minLevel="60" /> <!-- Tempest -->
+				<skill id="1176" level="8" minLevel="62" /> <!-- Tempest -->
+				<skill id="1176" level="9" minLevel="64" /> <!-- Tempest -->
+				<skill id="1176" level="10" minLevel="66" /> <!-- Tempest -->
+				<skill id="1176" level="11" minLevel="68" /> <!-- Tempest -->
+				<skill id="1176" level="12" minLevel="70" /> <!-- Tempest -->
+				<skill id="1176" level="15" minLevel="74" /> <!-- Tempest -->
+				<skill id="1417" level="1" minLevel="56" /> <!-- Aura Flash -->				
+				<skill id="1417" level="2" minLevel="58" /> <!-- Aura Flash -->
+				<skill id="1417" level="4" minLevel="60" /> <!-- Aura Flash -->
+				<skill id="1417" level="5" minLevel="66" /> <!-- Aura Flash -->
+				<skill id="1417" level="6" minLevel="68" /> <!-- Aura Flash -->
+				<skill id="1417" level="7" minLevel="70" /> <!-- Aura Flash -->
+				<skill id="1417" level="9" minLevel="74" /> <!-- Aura Flash -->
+				<skill id="228" level="3" minLevel="74" /> <!-- Fast Spell Casting -->
+				
+				<!-- Passive Skill -->
+				<skill id="234" level="13" minLevel="46" /> <!-- Robe Mastery -->
+				<skill id="234" level="16" minLevel="48" /> <!-- Robe Mastery -->
+				<skill id="234" level="20" minLevel="52" /> <!-- Robe Mastery -->
+				<skill id="234" level="25" minLevel="58" /> <!-- Robe Mastery -->
+				<skill id="234" level="29" minLevel="62" /> <!-- Robe Mastery -->
+				<skill id="234" level="35" minLevel="68" /> <!-- Robe Mastery -->
+				<skill id="234" level="37" minLevel="70" /> <!-- Robe Mastery -->
+				<skill id="234" level="41" minLevel="74" /> <!-- Robe Mastery -->
+				
+				<!-- Toogle Skill -->
+				<skill id="337" level="1" minLevel="78" /> <!-- Arcane Power -->
+					
+			</additionalSkills>
+			<skills>
+				<skill id="1239" level="1" /> <!-- Hurricane -->
+				<skill id="1148" level="1" /> <!-- Death Spike -->
+				<skill id="1074" level="4" /> <!-- Surrender To Wind -->
+				<skill id="1169" level="1" /> <!-- Curse Fear -->
+				<skill id="1176" level="1" /> <!-- Tempest -->
+				<skill id="234" level="11"  /> <!-- Robe Mastery -->
+				<skill id="619" level="1" /> <!-- Transform Dispel -->
+			</skills>
+		</Male>
+		<Female>
+			<common>
+				<base range="20" attackSpeed="300" attackType="SWORD" critRate="5" mAtk="5" pAtk="5" randomDamage="10" />
+				<stats str="23" int="44" con="24" dex="23" wit="19" men="37" />
+				<defense chest="31" legs="18" head="12" feet="7" gloves="8" underwear="3" cloak="1" />
+				<magicDefense rear="9" lear="9" rfinger="5" lfinger="5" neck="13" />
+				<collision radius="7.5" height="22.8" />
+				<moving walk="78" run="120" waterWalk="50" waterRun="50" flyWalk="0" flyRun="0" unknownWalk="0" unknownRun="0" />
+			</common>
+			<actions>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 28 29 30 31 32 33 34 35 36 38 39 40 41 42 43 44 45 46 47 48 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 70 1000 1001 1003 1004 1005 1006 1007 1008 1009 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019 1020 1021 1022 1023 1024 1025 1026 1027 1028 1029 1030 1031 1032 1033 1034 1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 1046 1047 1048 1049 1050 1051 1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 1066 1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1082 1083 1084 1089 1090 1091 1092 1093 1094 1095 1096 1097 1098</actions>
+			<additionalSkills>
+				<skill id="1291" level="1" minLevel="70" /> <!-- Demon Wind -->
+				<skill id="1287" level="1" minLevel="58" /> <!-- Seed of Wind -->
+				<skill id="1341" level="1" minLevel="78" /> <!-- Wind Vortex -->
+				<skill id="1456" level="1" minLevel="78" /> <!-- Wind Vortex Slug -->
+				<skill id="1457" level="1" minLevel="79" /> <!-- Empowering Echo -->
+				<skill id="1239" level="2" minLevel="44" /> <!-- Hurricane -->
+				<skill id="1239" level="3" minLevel="46" /> <!-- Hurricane -->
+				<skill id="1239" level="4" minLevel="47" /> <!-- Hurricane -->
+				<skill id="1239" level="5" minLevel="48" /> <!-- Hurricane -->
+				<skill id="1239" level="6" minLevel="49" /> <!-- Hurricane -->
+				<skill id="1239" level="7" minLevel="50" /> <!-- Hurricane -->
+				<skill id="1239" level="8" minLevel="51" /> <!-- Hurricane -->
+				<skill id="1239" level="9" minLevel="52" /> <!-- Hurricane -->
+				<skill id="1239" level="10" minLevel="53" /> <!-- Hurricane -->
+				<skill id="1239" level="11" minLevel="54" /> <!-- Hurricane -->
+				<skill id="1239" level="12" minLevel="55" /> <!-- Hurricane -->
+				<skill id="1239" level="13" minLevel="56" /> <!-- Hurricane -->
+				<skill id="1239" level="14" minLevel="57" /> <!-- Hurricane -->
+				<skill id="1239" level="15" minLevel="58" /> <!-- Hurricane -->
+				<skill id="1239" level="16" minLevel="59" /> <!-- Hurricane -->
+				<skill id="1239" level="17" minLevel="60" /> <!-- Hurricane -->
+				<skill id="1239" level="18" minLevel="61" /> <!-- Hurricane -->
+				<skill id="1239" level="19" minLevel="62" /> <!-- Hurricane -->
+				<skill id="1239" level="20" minLevel="63" /> <!-- Hurricane -->
+				<skill id="1239" level="21" minLevel="64" /> <!-- Hurricane -->
+				<skill id="1239" level="22" minLevel="65" /> <!-- Hurricane -->
+				<skill id="1239" level="23" minLevel="66" /> <!-- Hurricane -->
+				<skill id="1239" level="24" minLevel="67" /> <!-- Hurricane -->
+				<skill id="1239" level="25" minLevel="68" /> <!-- Hurricane -->
+				<skill id="1239" level="26" minLevel="69" /> <!-- Hurricane -->
+				<skill id="1239" level="27" minLevel="70" /> <!-- Hurricane -->
+				<skill id="1239" level="28" minLevel="74" /> <!-- Hurricane -->
+				<skill id="1148" level="2" minLevel="46" /> <!-- Death Spike -->
+				<skill id="1148" level="3" minLevel="52" /> <!-- Death Spike -->
+				<skill id="1148" level="4" minLevel="54" /> <!-- Death Spike -->
+				<skill id="1148" level="5" minLevel="56" /> <!-- Death Spike -->
+				<skill id="1148" level="6" minLevel="58" /> <!-- Death Spike -->
+				<skill id="1148" level="7" minLevel="60" /> <!-- Death Spike -->
+				<skill id="1148" level="8" minLevel="62" /> <!-- Death Spike -->
+				<skill id="1148" level="9" minLevel="64" /> <!-- Death Spike -->
+				<skill id="1148" level="10" minLevel="66" /> <!-- Death Spike -->
+				<skill id="1148" level="11" minLevel="68" /> <!-- Death Spike -->
+				<skill id="1148" level="12" minLevel="70" /> <!-- Death Spike -->
+				<skill id="1148" level="14" minLevel="74" /> <!-- Death Spike -->
+				<skill id="1074" level="5" minLevel="44" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="7" minLevel="46" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="8" minLevel="52" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="9" minLevel="54" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="10" minLevel="56" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="11" minLevel="58" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="12" minLevel="64" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="13" minLevel="70" /> <!-- Surrender To Wind -->
+				<skill id="1074" level="14" minLevel="74" /> <!-- Surrender To Wind -->
+				<skill id="1169" level="2" minLevel="46" /> <!-- Curse Fear -->
+				<skill id="1169" level="3" minLevel="52" /> <!-- Curse Fear -->
+				<skill id="1169" level="4" minLevel="54" /> <!-- Curse Fear -->
+				<skill id="1169" level="5" minLevel="56" /> <!-- Curse Fear -->
+				<skill id="1169" level="6" minLevel="58" /> <!-- Curse Fear -->
+				<skill id="1169" level="7" minLevel="60" /> <!-- Curse Fear -->
+				<skill id="1169" level="8" minLevel="62" /> <!-- Curse Fear -->
+				<skill id="1169" level="9" minLevel="64" /> <!-- Curse Fear -->
+				<skill id="1169" level="10" minLevel="66" /> <!-- Curse Fear -->
+				<skill id="1169" level="11" minLevel="68" /> <!-- Curse Fear -->
+				<skill id="1169" level="12" minLevel="70" /> <!-- Curse Fear -->
+				<skill id="1169" level="14" minLevel="74" /> <!-- Curse Fear -->
+				<skill id="1176" level="3" minLevel="52" /> <!-- Tempest -->
+				<skill id="1176" level="4" minLevel="54" /> <!-- Tempest -->
+				<skill id="1176" level="5" minLevel="56" /> <!-- Tempest -->
+				<skill id="1176" level="6" minLevel="58" /> <!-- Tempest -->
+				<skill id="1176" level="7" minLevel="60" /> <!-- Tempest -->
+				<skill id="1176" level="8" minLevel="62" /> <!-- Tempest -->
+				<skill id="1176" level="9" minLevel="64" /> <!-- Tempest -->
+				<skill id="1176" level="10" minLevel="66" /> <!-- Tempest -->
+				<skill id="1176" level="11" minLevel="68" /> <!-- Tempest -->
+				<skill id="1176" level="12" minLevel="70" /> <!-- Tempest -->
+				<skill id="1176" level="15" minLevel="74" /> <!-- Tempest -->
+				<skill id="1417" level="1" minLevel="56" /> <!-- Aura Flash -->				
+				<skill id="1417" level="2" minLevel="58" /> <!-- Aura Flash -->
+				<skill id="1417" level="4" minLevel="60" /> <!-- Aura Flash -->
+				<skill id="1417" level="5" minLevel="66" /> <!-- Aura Flash -->
+				<skill id="1417" level="6" minLevel="68" /> <!-- Aura Flash -->
+				<skill id="1417" level="7" minLevel="70" /> <!-- Aura Flash -->
+				<skill id="1417" level="9" minLevel="74" /> <!-- Aura Flash -->
+				<skill id="228" level="3" minLevel="74" /> <!-- Fast Spell Casting -->
+				
+				<!-- Passive Skill -->
+				<skill id="234" level="13" minLevel="46" /> <!-- Robe Mastery -->
+				<skill id="234" level="16" minLevel="48" /> <!-- Robe Mastery -->
+				<skill id="234" level="20" minLevel="52" /> <!-- Robe Mastery -->
+				<skill id="234" level="25" minLevel="58" /> <!-- Robe Mastery -->
+				<skill id="234" level="29" minLevel="62" /> <!-- Robe Mastery -->
+				<skill id="234" level="35" minLevel="68" /> <!-- Robe Mastery -->
+				<skill id="234" level="37" minLevel="70" /> <!-- Robe Mastery -->
+				<skill id="234" level="41" minLevel="74" /> <!-- Robe Mastery -->
+				
+				<!-- Toogle Skill -->
+				<skill id="337" level="1" minLevel="78" /> <!-- Arcane Power -->
+					
+			</additionalSkills>
+			<skills>
+				<skill id="1239" level="1" /> <!-- Hurricane -->
+				<skill id="1148" level="1" /> <!-- Death Spike -->
+				<skill id="1074" level="4" /> <!-- Surrender To Wind -->
+				<skill id="1169" level="1" /> <!-- Curse Fear -->
+				<skill id="1176" level="1" /> <!-- Tempest -->
+				<skill id="234" level="11"  /> <!-- Robe Mastery -->
+				<skill id="619" level="1" /> <!-- Transform Dispel -->
+			</skills>
+		</Female>
+	</transform>
+</list>

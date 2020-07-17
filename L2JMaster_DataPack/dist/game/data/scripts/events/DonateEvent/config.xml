@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event name="Donate Event" active="12 10 2017-26 10 2021" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/eventConfig.xsd">
+	<messages>
+		<add type="onEnd" text="Donate event end!" />
+		<add type="onEnter" text="Donate is started!" />
+	</messages>
+</event>
